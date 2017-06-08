@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h3 id="title">Local Weather</h3>
+        <h4><span id="city"></span><span id="region"></span><span id="country"></span></h4>
+      </div>
+      <div id="iconImage">
+      </div>
+      <div id="info">
+        <h4> <span id="summary"></span></h4>
+      </div>
+      <div id="maxAndMin">
+        <h4><span id="minTemp"></span></h4>
+        <h4><span id="maxTemp"></span></h4>
+      </div>
+      <div id="tempBig">
+        <h1><span id="temp"></span></h1>
+      </div>
+      <div id="convert">
+        <h3><span id="celsius" class="selected">C</span> / <span id="fahrenheit">F</span></h3>
+      </div>
+      <hr>
+        <div class="footer">
+          <p>Powered by</p>
+            <a class="credit" href="https://ipinfo.io/" target="_blank">ipinfo.io</a>
+            <a class="credit"  href="https://darksky.net/dev/" target="_blank">Dark Sky API</a>
+            <a class="credit" href="https://www.amcharts.com/free-animated-svg-weather-icons/" target="_blank">amCharts</a>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
