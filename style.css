@@ -96,3 +96,17 @@ hr{
 .credit{
   padding: 20px;
 }
+
+@media (max-width:700px) {
+  #wrapper{
+    width: 300px;
+  }
+
+  hr{
+    width: 150px;
+  }
+
+  .credit{
+    padding: 4px;
+  }
+}
