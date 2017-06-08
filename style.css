@@ -6,8 +6,6 @@ html{
 body{
   text-align: center;
   background: #2980b9;
-  background: -webkit-linear-gradient(to bottom, #2c3e50, #2980b9);
-  background: linear-gradient(to bottom, #2c3e50, #2980b9);
   color: #ffffff;
 }
 
@@ -109,4 +107,5 @@ hr{
   .credit{
     padding: 4px;
   }
+
 }
